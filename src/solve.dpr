@@ -5,20 +5,22 @@ const
 
 type
   TMatrix = array [1 .. n, 1 .. n] of Integer;
+  TMAS = array [1 .. n] of Integer;
+  TSet = set of 1 .. n;
 
 var
   X: TMatrix;
   i, j, k: Integer;
   similarCount: Integer;
-  doneLines: array [1 .. n] of Integer;
+  doneLines: TMAS;
 
-function InArray(var arr: array of Integer; const el: Integer): Boolean;
+function InArray(var arr: TMAS; const el: Integer): Boolean;
 var
   i: Integer;
   isTrue: Boolean;
 begin
   isTrue := false;
-  for i := 0 to n - 1 do
+  for i := 1 to n do
   begin
     if arr[i] = el then
     begin
@@ -30,9 +32,9 @@ begin
   InArray := isTrue;
 end;
 
-function AreRowsSimilar(row1, row2: Integer): Boolean;
+function AreRowsSimilar(var matrix: TMatrix; const row1, row2: Integer): Boolean;
 var
-  set1, set2: set of 1 .. n;
+  set1, set2: TSet;
   i: Integer;
 begin
   set1 := [];
@@ -40,8 +42,8 @@ begin
 
   for i := 1 to n do
   begin
-    Include(set1, X[row1, i]);
-    Include(set2, X[row2, i]);
+    Include(set1, matrix[row1, i]);
+    Include(set2, matrix[row2, i]);
   end;
 
   AreRowsSimilar := set1 = set2;
@@ -59,7 +61,6 @@ begin
     end;
   end;
 
-  // Подсчёт похожих строк
   similarCount := 0;
   for i := 1 to n - 1 do
     if InArray(doneLines, i) then
@@ -69,7 +70,7 @@ begin
     else
     begin
       for j := i + 1 to n do
-        if AreRowsSimilar(i, j) then
+        if AreRowsSimilar(X, i, j) then
         begin
           Inc(similarCount);
           doneLines[i] := i;
