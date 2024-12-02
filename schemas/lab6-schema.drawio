@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1247" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WhzFTNo1r284jawbhb5X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-0" target="WhzFTNo1r284jawbhb5X-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-0" value="Начало" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-1" target="WhzFTNo1r284jawbhb5X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-1" value="Задание начальных значений" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="160" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.496;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-2" target="WhzFTNo1r284jawbhb5X-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="562" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="404" y="387" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-3" value="for i:=1 to&lt;br&gt;n-1 do" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="419" y="397" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-5" target="WhzFTNo1r284jawbhb5X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-5" value="Подсчёт похожих строк" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="512" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-11" target="WhzFTNo1r284jawbhb5X-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-11" value="lineInArray&lt;br&gt;:= InArray(&lt;br&gt;doneLines, i)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="517" y="510" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-13" target="WhzFTNo1r284jawbhb5X-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="581" />
+              <mxPoint x="708" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-13" value="not&lt;br&gt;lineInArray" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="512" y="611" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-14" target="WhzFTNo1r284jawbhb5X-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="658" y="631" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-15" value="for&amp;nbsp;j := i + 1&lt;br&gt;to n do" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="669" y="641" width="78" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-26" value="" style="group;strokeWidth=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="658" y="729" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;strokeWidth=1;" vertex="1" parent="WhzFTNo1r284jawbhb5X-26">
+          <mxGeometry y="5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-21" value="similar :=&lt;br&gt;AreRows&lt;br&gt;Similar&lt;br&gt;(X, i, j)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="WhzFTNo1r284jawbhb5X-26">
+          <mxGeometry x="16.5" width="67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.716;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-27" target="WhzFTNo1r284jawbhb5X-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="812" y="793" />
+              <mxPoint x="858" y="793" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-27" value="similar" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="658" y="824" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-28" target="WhzFTNo1r284jawbhb5X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-28" value="&lt;div&gt;similarCount := similarCount + 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;doneLines[i] := i&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="808" y="824" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-29" value="Вывод&lt;br&gt;Строки i и j&lt;br&gt;похожи" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="808" y="957" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-21" target="WhzFTNo1r284jawbhb5X-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.746;exitY=0.279;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-33" target="WhzFTNo1r284jawbhb5X-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="479" />
+              <mxPoint x="401" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.736;exitY=0.732;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-33" target="WhzFTNo1r284jawbhb5X-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="401" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-33" value="similarCount&lt;br&gt;= 0" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="490" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-34" value="Вывод&lt;br&gt;Не нашлось похожих&lt;br&gt;строк" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="344" y="505.5" width="114" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WhzFTNo1r284jawbhb5X-5" target="WhzFTNo1r284jawbhb5X-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhzFTNo1r284jawbhb5X-37" value="Вывод&lt;br&gt;Итоговое&lt;br&gt;кол-во&lt;br&gt;похожих &lt;br&gt;пар строк:&lt;br&gt;similarCount" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="647" width="142" height="93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
