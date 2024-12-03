@@ -1,7 +1,7 @@
 program lab6;
 
 const
-  n = 5; // размер матрицы
+  n = 6; // размер матрицы
 
 type
   TMatrix = array [1 .. n, 1 .. n] of Integer;
@@ -10,34 +10,17 @@ type
 
 var
   X: TMatrix = (
-    (1, 1, 1, 1, 1),
-    (1, 1, 1, 1, 2),
-    (1, 1, 1, 1, 3),
-    (1, 1, 1, 1, 4),
-    (1, 1, 1, 1, 5)
+    (1, 1, 1, 1, 1, 1),
+    (1, 1, 1, 1, 2, 1),
+    (1, 1, 1, 1, 1, 1),
+    (1, 1, 1, 1, 1, 1),
+    (1, 1, 1, 1, 5, 1),
+    (1, 1, 1, 1, 1, 1)
   );
   i, j: Integer;
   similarCount: Integer;
   doneLines: TMAS;
-  lineInArray, similar: Boolean;
-
-function InArray(var arr: TMAS; const el: Integer): Boolean;
-var
-  i: Integer;
-  isTrue: Boolean;
-begin
-  isTrue := false;
-  for i := 1 to n do
-  begin
-    if arr[i] = el then
-    begin
-      isTrue := true;
-      break;
-    end
-  end;
-
-  InArray := isTrue;
-end;
+  similar: Boolean;
 
 function AreRowsSimilar(var matrix: TMatrix; const row1, row2: Integer)
   : Boolean;
@@ -62,12 +45,7 @@ begin
   similarCount := 0;
   for i := 1 to n - 1 do
   begin
-    lineInArray := InArray(doneLines, i);
-    if lineInArray then
-    begin
-
-    end
-    else
+    if doneLines[i] <> i then
     begin
       for j := i + 1 to n do
       begin
