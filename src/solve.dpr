@@ -10,16 +10,14 @@ type
 function InArray(var arr: TMAS; const el: Integer): Boolean;
 var
   i: Integer;
-  isTrue: Boolean;
 begin
-  isTrue := false;
   for i := 1 to n do
   begin
     if arr[i] = el then
       exit(True);
   end;
 
-  InArray := isTrue;
+  InArray := False;
 end;
 
 procedure SortArray(var arr: TMAS; count: Integer);
